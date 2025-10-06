@@ -10,13 +10,13 @@ class Solution {
                 max = sides[i];
             }
         }
-        for(int i=0; i<3; i++) {
-                if(max < sum - max) {
-                    answer = 1;
-                }
-               else
-                    answer = 2;            
-            }
+      
+        if(max < sum - max) {
+            answer = 1;
+        }
+        else
+            answer = 2;            
+            
          return answer;
     }
 }
