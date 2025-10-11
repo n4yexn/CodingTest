@@ -2,10 +2,10 @@ class Solution {
     public int solution(int n) {
         int answer = 0;
         String str = Integer.toString(n);
+        String arr[] = str.split("");
         
-        for(int i=0; i<str.length(); i++) {
-            char a = str.charAt(i);
-            answer += a - '0';
+        for(int i=0; i<arr.length; i++) {
+            answer += Integer.parseInt(arr[i]);
         }
         return answer;
     }
