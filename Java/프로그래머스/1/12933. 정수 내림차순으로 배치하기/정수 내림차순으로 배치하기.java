@@ -9,7 +9,7 @@ class Solution {
         
         String b = String.valueOf(a); //배열을 String으로 변환
         
-        StringBuffer sb = new StringBuffer(b);
+        StringBuilder sb = new StringBuilder(b);
         sb.reverse();//오름차순으로 정렬된 String을 뒤집기
         
         long answer = Long.parseLong(sb.toString());
