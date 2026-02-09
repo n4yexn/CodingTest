@@ -4,10 +4,8 @@ class Solution {
         int stra = Integer.parseInt(String.valueOf(a) + String.valueOf(b));
         int strb = Integer.parseInt(String.valueOf(b) + String.valueOf(a));
         
-        if(stra > strb)
-            return stra;
-        else
-            return strb;
+        int answer = Math.max(stra, strb);
+        return answer;
     }
 }
 
