@@ -4,14 +4,12 @@ class Solution {
         char str[] = control.toCharArray();
         
         for(char v : str){
-            if(v == 'w')
-                answer += 1;
-            else if(v == 's')
-                answer -= 1;
-            else if(v == 'd')
-                answer += 10;
-            else
-                answer -= 10;
+            switch(v){
+                case 'w' : answer += 1; break;
+                case 's' : answer -= 1; break;
+                case 'd' : answer += 10; break;
+                case 'a' : answer -= 10; break;
+            }
         }
         return answer;
     }
