@@ -1,11 +1,7 @@
 function solution(array) {
     let index = 0;
-    let max = Math.max(...array);
+    let max = 0;
     
-    for(let i=0; i<array.length; i++){
-        if (array[i] == max)
-            index = i
-    }
-    var answer = [max, index];
+    var answer = [Math.max(...array), array.indexOf(Math.max(...array))];
     return answer;
 }
