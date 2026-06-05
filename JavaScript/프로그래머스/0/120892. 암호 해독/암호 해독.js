@@ -1,9 +1,8 @@
 function solution(cipher, code) {
     var answer = [];
     
-    answer.push(cipher.charAt(code -1));
-    for(let i=1; i<cipher.length; i++){
-        answer.push(cipher.charAt(code * i + code-1 ));
+    for(let i=code-1; i<cipher.length; i+=code){
+        answer.push(cipher.charAt(i));
     }
     
     return answer.join("");
