@@ -1,10 +1,10 @@
 # [level 0] 외계행성의 나이 - 120834 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120834?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120834) 
 
 ### 성능 요약
 
-메모리: 32.7 MB, 시간: 0.08 ms
+메모리: 32.8 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 06월 06일 22:00:20
+2026년 06월 06일 22:07:39
 
 ### 문제 설명
 
