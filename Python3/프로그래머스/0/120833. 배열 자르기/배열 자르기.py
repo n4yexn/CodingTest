@@ -1,8 +1,6 @@
 def solution(numbers, num1, num2):
     answer = []
-    i = num1
     
-    while(i <= num2):
+    for i in range (num1,  num2 + 1):
         answer.append(numbers[i])
-        i += 1
     return answer
